@@ -7,7 +7,7 @@ class CalculadoraTest {
     //SUMAR
 
     @Test
-    public void sumar(){
+    public void sumar1(){
         System.out.println("sumar");
         double number1= 5.0;
         double number2= 3.0;
@@ -25,7 +25,7 @@ class CalculadoraTest {
 
 
     @Test
-    public void restar(){
+    public void restar1(){
         System.out.println("restar");
         double number1= 5.0;
         double number2= 4.0;
@@ -41,7 +41,7 @@ class CalculadoraTest {
 
 
     @Test
-    public void multiplicar(){
+    public void multiplicar1(){
         System.out.println("multiplicar");
         double number1= 9.0;
         double number2= 2.0;
@@ -57,7 +57,7 @@ class CalculadoraTest {
 
 
     @Test
-    public void dividir(){
+    public void dividir1(){
         System.out.println("dividir");
         double number1= 10.0;
         double number2= 2.0;
