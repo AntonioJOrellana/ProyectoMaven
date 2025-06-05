@@ -2,23 +2,16 @@ package es.vedruna;
 
 public class Calculadora {
 
-    public int sumar(int a, int b) {
-        return a + b;
+    public double sumar(double number1, double number2){
+        return number1 + number2;
     }
-
-
-    public int restar(int a, int b) {
-        return a - b;
+    public double restar(double number1, double number2){
+        return number1 - number2;
     }
-
-
-    public int multiplicar(int a, int b) {
-        return a * b;
+    public double multiplicar(double number1, double number2){
+        return number1 * number2;
     }
-
-
-    public int dividir(int a, int b) {
-        if (b == 0) throw new ArithmeticException("No se puede dividir entre 0");
-        return a / b;
+    public double dividir(double number1, double number2){
+        return number1 / number2;
     }
 }
